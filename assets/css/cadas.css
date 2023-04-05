@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#conta{
+    background-color: #ffffc0;
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffc0;
+    margin: 0px;
+    padding: 0px;
+}
+
+.hea_c{
+    background-color: #fecea8;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    color: #ebdfcc;
+    height: 100px;
+    font-family: 'Times New Roman';
+}
+
+.sla{
+    font-size: 42px;
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+}
+.icon{
+    width:100px;
+    height: 100px;
+    opacity: 30%;
+    display: flex;
+    justify-content: flex-start;
+    transition: 1.5s;
+}
+.icon:hover{
+    opacity: 100%;
+    transition: 1.5s;
+}
+
+.naveg{
+    display: flex;
+    list-style: none;
+    transition: 1.5s;
+    color:  #970000;
+}
+
+.naveg li{
+    margin-right: 20px;
+}
+
+
+.naveg a:hover{
+    font-size: 1.5rem;
+    color: #e84a5f;
+    transition:0.8s;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.naveg a{
+    text-decoration: none;
+    color: #2a363b;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: 1.5s;
+}
+
+.mai{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mai_h2{
+    font-size: 42px;
+    font-family:'Times New Roman';
+    color: black;
+}
+
+.mai p{
+    font-size: 40px;
+    font-family: 'Times New Roman';
+}
+
+.mai label{
+    font-size: 35px;
+    font-family: 'Times New Roman';
+
+}
+
+.mai input{
+    width: 350px;
+    height: 20px;
+    padding: 5px;
+    margin: 10px;
+
+}
+
+footer{
+        background-color:  #fecea8;
+        color:black;
+        display: flex;
+        justify-content: space-between;
+        height: 65px;
+        align-items: center;
+        margin: 0px ;
+        padding: 0px 0px 0px 0px;
+    
+}
+button{
+    height: 50px;
+    width: 200px;
+    margin: 20px;
+    background-color: #d46868;
+}
